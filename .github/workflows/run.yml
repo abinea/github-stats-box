@@ -15,6 +15,7 @@ jobs:
                   
             - name: Checkout
               uses: actions/checkout@master
+            - run: npm install
             - run: node index.js
               env:
                   GH_TOKEN: ${{ secrets.GH_TOKEN }} # Do not edit, defined in secrets
