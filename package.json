@@ -8,7 +8,6 @@
     "main": "index.js",
     "scripts": {
         "prettier": "prettier --write **/*.{js,md,json,yml}",
-        "start": "node index.js"
     },
     "bin": {
         "github-stats-box": "index.js"
