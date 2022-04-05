@@ -14,7 +14,7 @@ jobs:
                   node-version: 12
                   
             - name: Checkout
-            - uses: actions/checkout@master
+              uses: actions/checkout@master
             - run: node index.js
               env:
                   GH_TOKEN: ${{ secrets.GH_TOKEN }} # Do not edit, defined in secrets
